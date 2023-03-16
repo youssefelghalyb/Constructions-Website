@@ -1,0 +1,399 @@
+/*Start Sale*/
+.sale {
+    background-color: #FFC910;
+    padding: 8px 0;
+}
+
+.social-header {
+    text-align: center;
+}
+
+.social-header i {
+    padding-right: 25px;
+}
+
+.social-header i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1000px) {
+    .sale {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .sale .container .row div h5 {
+        font-size: 12px;
+    }
+}
+
+/*End Sale*/
+
+
+
+/*Start Nav*/
+.nav {
+    background-color: #222534;
+}
+
+
+nav a div {
+    color: #fff;
+    line-height: 1;
+}
+
+nav a div h1 {
+    color: #FFC910;
+}
+
+
+@media screen and (max-width:800px) {
+    nav a div h1 {
+        font-size: 30px;
+    }
+
+    nav a div span {
+        font-size: 15px;
+    }
+}
+
+/*End Nav*/
+
+
+
+/* start section 1 */
+.sec1 {
+    background-image: url(../IMG/1.jpg);
+    position: relative;
+    isolation: isolate;
+}
+
+.sec1::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background:#000;
+    opacity: 0.6;
+}
+
+.sec1 .container>div {
+    text-align: center;
+    padding: 12% 0;
+    color: #fff;
+}
+
+
+.sec1 .container div h3 {
+
+    font-size: 30px;
+}
+
+.sec1 .container div h1 {
+    letter-spacing: 1.5px;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+
+.sec1 .container div h1:nth-of-type(2) {
+    color: #FFC910;
+    margin-top: -29px;
+}
+
+.sec1 .container div p {
+    padding-top: 2%;
+
+}
+
+
+.sec1 .container div button {
+    color: #fff;
+    background-color: #FFC910;
+    border: none;
+    border-radius: 9px;
+    padding: 9px 15px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+
+.sec1 .container div button:hover {
+    rotate: 20deg;
+}
+
+
+
+
+/* End section 1 */
+
+
+
+/* Start section 2 */
+.sec2{
+    margin-top:60px;
+}
+
+
+
+
+.sec2 .container .row div:last-child {
+    text-align: center;
+    padding-top: 6px;
+}
+
+
+.sec2 .container .row div img{
+   width: 500px; 
+}
+
+
+.sec2 .container .row div h1{
+    color: #FFC910;
+    text-transform: uppercase;
+}
+
+.sec2 .container .row div button {
+    color: #fff;
+    background-color: #FFC910;
+    border: none;
+    border-radius: 9px;
+    padding: 9px 15px;
+    margin-right: 20px;
+    transition: 0.5s;
+
+}
+
+.sec2 .container .row div button:hover{
+    rotate: 20deg;
+    z-index: 99999;
+}
+
+@media screen and (max-width:1000px){
+    .sec2 .container .row .col-lg-7{
+        text-align: center;
+    }
+    .sec2 .container .row div img{
+        width:100%;
+    }
+}
+
+
+
+
+
+
+
+/* End section 2 */
+
+
+
+/* Start section 3 */
+
+
+.sec3{
+    margin-top:120px; 
+}
+.sec3 .container .row div{
+    text-align: center;
+}
+
+
+.sec3 .container .row div:first-child{
+    margin-bottom: 60px;
+}
+
+
+.sec3 .container .row div i{
+    border: 1px solid ;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0px 4px 48px #FFC910;
+    background-color: #FFC91070;
+    margin-bottom: 35px;
+}
+/* End section 3 */
+
+
+
+/* Start section 4 */
+.sec4{
+    margin: 80px 0 ;
+}
+
+
+.sec4 .container .row div img{
+    width: 335px;
+    margin: 20px 0;
+}
+
+.sec4 .container .row div:first-child{
+    text-align: center;
+}
+
+
+.sec4 .container .row div button{
+    color: #fff;
+    background-color: #FFC910;
+    border: none;
+    border-radius: 9px;
+    padding: 9px 15px;
+    margin-right: 20px;
+    transition: 0.5s;
+
+}
+
+.sec4 .container .row div button:hover{
+        rotate: 20deg;
+}
+
+@media screen and (max-width:767px){
+    .sec4 .container .row div{
+        text-align: center;
+    }
+    .sec4 .container .row div img{
+        width: 100%;
+    }
+}
+/* End section 4 */
+
+
+
+/*Start Before Footer*/
+
+.before-footer{
+    background-color: #FFC910;
+    padding: 120px;
+}
+
+.before-footer .container .row div h1:first-child{
+    font-weight: bolder;
+}
+
+.before-footer .container .row div h1:last-child{
+    font-weight:lighter;
+}
+
+
+
+
+.forme input{
+    margin: 6px;
+    border-radius: 10px;
+    border: none;
+    height: 42px;
+}
+
+
+.forme button{
+    height: 41px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 12px;
+    background-color: #222534;
+    color: #fff;
+    transition: 0.5s;
+
+}
+
+
+.forme button:hover{
+    margin-left: 6px;
+}
+
+
+
+
+/*End Before Footer*/
+
+
+
+/*Start  Footer*/
+
+.foot{
+    background-image:url(../IMG/6.png) ;
+    background-size: cover; 
+    padding: 80px;
+    color: #fff;
+    position: relative;
+    isolation: isolate;
+
+}
+
+.foot::after{
+    content: "";
+    position: absolute;
+    z-index:-1;
+    inset: 0;
+    background:#000;
+    opacity: 0.7;
+
+}
+
+
+.foot .container .row div:first-child h3{
+    color: #FFC910;
+}
+
+.foot .container .row div:first-child h4{
+    font-style: italic;
+    line-height: 0;
+    margin-bottom: 36px;
+    }
+
+    
+.foot .container .row div:first-child i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFC910;
+    color: #000;
+    width: 37px;
+    height: 37px;
+    text-align: center;
+}
+
+.foot .container .row div:first-child i:hover{
+    background-color: #000;
+    color: #FFC910;
+    cursor: pointer;
+}
+
+
+
+
+
+.foot .container .row div:nth-child(3) p{
+    display: inline;
+}
+
+
+.foot .container .row div:last-child div {
+    margin: 17px 0;
+}
+
+/*End  Footer*/
+
+
+
+/*Copyrights*/
+
+.copyrights {
+    background-color: #222534;
+    padding: 8px;
+    color: #fff;
+}
+
+.copyrights .container{
+    text-align: center;
+}
+
+.copyrights .container p span{
+    color: #FFC910;
+}
+
+
+
+/*Copyrights*/
